@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import kandyKorner from './KandyKorner.js';
 import reportWebVitals from './reportWebVitals';
+import {LocationList} from './components/locations/locations.js'
+import {ProductList} from './components/products/products.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LocationList />
+    <ProductList />
   </React.StrictMode>,
   document.getElementById('root')
 );
