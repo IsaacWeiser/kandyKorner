@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import kandyKorner from './KandyKorner.js';
+//import kandyKorner from './KandyKorner.js';
 import reportWebVitals from './reportWebVitals';
-import {LocationList} from './components/locations/locations.js'
-import {ProductList} from './components/products/products.js'
+import {KandyKorner} from './KandyKorner'
+import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LocationList />
-    <ProductList />
+    <BrowserRouter>
+    <KandyKorner />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
