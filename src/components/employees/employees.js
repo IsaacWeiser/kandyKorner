@@ -93,7 +93,7 @@ export const NewEmployeeForm = () => {
                 </fieldset>
                 <fieldset>
                     <div className="form-group">
-                        <label htmlFor="manager">Are you a manager</label>
+                        <label htmlFor="manager">Are you a manager </label>
                         <select
                         onChange={(event)=>{
                             let copy = {...employees};
